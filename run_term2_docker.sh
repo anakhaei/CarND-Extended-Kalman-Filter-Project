@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo nvidia-docker run\
+nvidia-docker run\
   --net=host\
   -e SHELL\
   -e DISPLAY=$DISPLAY\
